@@ -1,2 +1,11 @@
-# React-Native-Init
-Projeto Base
+## Iniciar um novo projeto
+
+## Instalando Reactotron
+
+## Eslint
+
+## PropTypes
+
+## Icons
+
+----------------

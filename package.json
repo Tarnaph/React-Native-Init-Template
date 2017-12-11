@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "eslint-import-resolver-babel-module": "^4.0.0",
     "prop-types": "^15.6.0",
     "react": "16.0.0",
     "react-native": "0.51.0"
@@ -14,6 +15,7 @@
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "babel-jest": "21.2.0",
+    "babel-plugin-module-resolver": "^3.0.0",
     "babel-preset-react-native": "4.0.0",
     "eslint": "^4.13.0",
     "eslint-config-airbnb": "^16.1.0",

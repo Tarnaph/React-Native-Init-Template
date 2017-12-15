@@ -149,10 +149,10 @@ Crie uma pasta /src/services/api.js e configure api.
 ## Redux Saga
 `yarn add redux-saga`
 
+## Redux Persist
+`yarn add redux-persist`
+
 #### Reactotron Redux
 `yarn add reactotron-redux`
-
-
-
 
 ----------------

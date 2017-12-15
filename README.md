@@ -10,7 +10,7 @@ Reactron,Eslint,PropTypes,Icons,React Navigation,ApiSauce
 `yarn add reactotron-redux`
 
 #### Crie uma pasta chamada src/config com ReactotronConfig.js
-
+ `
   import { NativeModules } from 'react-native';
   import Reactotron from 'reactotron-react-native';
   import { reactotronRedux } from 'reactotron-redux';
@@ -25,7 +25,7 @@ Reactron,Eslint,PropTypes,Icons,React Navigation,ApiSauce
       .connect();
     tron.clear();
     console.tron = tron;
-  }
+  }`
 
 #### No arquivo app.js
 `import './config/ReactotronConfig';`
@@ -131,5 +131,36 @@ E para link a nova biblioteca
 
 #### Import
 `import Icon from 'react-native-vector-icons/FontAlvo';`
+
+
+## ApiSauce
+#### [ApiSauce - Site](https://github.com/infinitered/apisauce)
+Talking to APIs doesn't have to be awkward anymore.
+####
+`yarn add apisauce`
+
+Crie uma pasta /src/services/api.js e configure api.
+
+`import api from './services/api';`
+
+## Redux
+`yarn add redux`
+
+#### React Redux
+`yarn add react-redux`
+
+#### Crie uma pasta chamada redux com store.js
+
+#### Em index. js
+`import { Provider } from 'react-redux';`
+`import store from 'redux/store';`
+
+##### Envolva o App
+  `<Provider store={stpre}>`
+    `<Routes />`
+  `</Provider>`
+
+#### Em /Redux crie /reducers
+São as actions
 
 ----------------

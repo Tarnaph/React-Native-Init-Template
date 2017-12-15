@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-import {} from 'react-native';
 import 'config/ReactotronConfig';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/es/integration/react';
+import { store, persistor } from 'redux/store';
+
 import Routes from 'routes';
 
-export default class App extends Component<{}> {
-  render() {
-    return (
+const App = () => (
+  <Provider store={store}>
+    <PersistGate persistor={persistor}>
       <Routes />
-    );
-  }
-}
+    </PersistGate>
+  </Provider>
+);
+
+export default App;

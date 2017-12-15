@@ -161,6 +161,9 @@ Crie uma pasta /src/services/api.js e configure api.
   `</Provider>`
 
 #### Em /Redux crie /reducers
-São as actions
+
+#### Reactotron Redux
+`yarn add reactotron-redux`
+
 
 ----------------

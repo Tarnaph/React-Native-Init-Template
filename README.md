@@ -2,7 +2,13 @@
 Foi instalado nesse projeto:
 Reactron,Eslint,PropTypes,Icons,React Navigation,ApiSauce
 
+### Install App
+Update displayName in app.json to the new name
 
+Delete ios/ and android/ directories in root project
+
+`react-native eject`
+`react-native link `
 
 #### Iniciar um novo projeto
 `react-native init projeto`

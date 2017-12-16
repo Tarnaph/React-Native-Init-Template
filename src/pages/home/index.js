@@ -1,29 +1,46 @@
+/* Core */
 import React, { Component } from 'react';
-import { Platform, Text, View } from 'react-native';
-import api from 'services/apiGithub';
+import PropTypes from 'prop-types';
+
+/* Presentational */
+import { View, Text } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+/* Redux */
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+// import { addAlgo } from 'redux/ducks/favorites';
+
+/* Styles */
 import styles from './styles';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+/* Class */
+class Main extends Component {
+  static navigationOptions = {
+    header: null,
+  };
 
-export default class App extends Component<{}> {
+  /* Validação */
+  static propTypes = { };
+
+  /* Estado inicial */
+  state = { };
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+        <Text style={styles.title}>Ola</Text>
+        <Icon name="github-alt" size={48} style={styles.logoIcon} />
       </View>
     );
   }
 }
+
+/* Pega o global state para o props */
+const mapStateToProps = state => ({ });
+
+/* Pega func para o props */
+const mapDispatchToProps = dispatch => bindActionCreators({ }, dispatch);
+
+/* Connecta os dois, podendo ser null */
+export default connect(mapStateToProps, mapDispatchToProps)(Main);

@@ -1,22 +1,55 @@
 import { StyleSheet } from 'react-native';
-import { colors, fonts, metrics } from 'styles';
+import { general, colors, fonts, metrics } from 'styles';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    ...general.container,
+    ...general.contentContainer,
+    alignItems: 'center',
+  },
+
+  title: {
+    fontWeight: 'bold',
+  },
+
+  logoIcon: {
+    color: colors.darker,
+    marginTop: 80,
+  },
+
+  formContainer: {
+    alignSelf: 'stretch',
+  },
+
+  input: {
+    backgroundColor: colors.white,
+    paddingHorizontal: metrics.basePadding,
+    shadowColor: colors.light,
+    shadowOpacity: 0.5,
+    shadowRadius: 8,
+    borderRadius: 100,
+    alignSelf: 'stretch',
+    height: 44,
+    fontSize: fonts.regular,
+  },
+
+  button: {
+    flex: 0,
+    marginTop: metrics.smallMargin,
+  },
+
+  userInformation: {
+    marginTop: 130,
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: colors.light,
+    alignSelf: 'stretch',
   },
-  welcome: {
-    fontSize: fonts.medium,
-    textAlign: 'center',
-    margin: metrics.smallMargin,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: colors.light,
-    marginBottom: 5,
+
+  favoritesText: {
+    fontSize: fonts.small,
+    color: colors.regular,
+    fontWeight: 'bold',
   },
 });
 

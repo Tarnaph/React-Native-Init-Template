@@ -8,6 +8,7 @@ Update displayName in app.json to the new name
 Delete ios/ and android/ directories in root project
 
 `react-native eject`
+
 `react-native link `
 
 #### Iniciar um novo projeto

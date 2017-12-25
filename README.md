@@ -4,6 +4,7 @@ Reactron,Eslint,PropTypes,Icons,React Navigation,ApiSauce
 
 ### Install App
 Update displayName in app.json to the new name
+Update name in index.js
 
 Delete ios/ and android/ directories in root project
 

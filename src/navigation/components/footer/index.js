@@ -46,7 +46,7 @@ class Footer extends Component {
               name="shopping-cart"
               style={[styles.icon, this.props.navigationState.index === 1 && styles.iconAtive]}
             />
-            <View style={[styles.fullerContainer, this.props.cart.products.length && styles.green]} />
+            <View style={[styles.fullerContainer]} />
           </TouchableOpacity>
         </View>
       </View>
@@ -64,7 +64,6 @@ Footer.propTypes = {
 
 /* Pega o global state para o props */
 const mapStateToProps = state => ({
-  cart: state.cart,
 });
 
 const mapDispatchToProps = dispatch => ({

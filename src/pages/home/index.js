@@ -16,10 +16,6 @@ import styles from './styles';
 
 /* Class */
 class Main extends Component {
-  static navigationOptions = {
-    header: null,
-  };
-
   /* Validação */
   static propTypes = { };
 

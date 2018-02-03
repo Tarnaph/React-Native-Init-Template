@@ -1,31 +1,33 @@
-import { StackNavigator, TabNavigator } from 'react-navigation';
+/* React */
+import React from 'react';
 
+/* Navigation */
+import { StackNavigator, TabNavigator, DrawerNavigator } from 'react-navigation';
+
+/* Components */
 import Footer from 'navigation/components/footer';
+import Header from 'navigation/components/header';
+
+/* Pages */
 import Home from 'pages/home';
 
-const homeRoutes = StackNavigator({
+const Routes = StackNavigator({
   Home: {
     screen: Home,
     navigationOptions: {
-      title: 'Go Native Store',
-      headerTitleStyle: {
-        color: '#FF9696',
-      },
-      headerStyle: {
-        backgroundColor: '#FFFF',
-      },
+      header: props => <Header {...props} defaultTitle="RN Default by Tarnaph" />,
     },
   },
 });
 
-const Routes = TabNavigator({
-  Home: { screen: homeRoutes },
-}, {
-  swipeEnabled: false,
-  animationEnabled: false,
-  lazy: false,
-  tabBarPosition: 'bottom',
-  tabBarComponent: Footer,
-});
+// const Routes = TabNavigator({
+//   Home: { screen: homeRoutes },
+// }, {
+//   swipeEnabled: false,
+//   animationEnabled: false,
+//   lazy: false,
+//   tabBarPosition: 'bottom',
+//   tabBarComponent: Footer,
+// });
 
 export default Routes;

@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: metrics.baseMargin,
     height: metrics.navBarHeight,
     borderBottomWidth: 1,
-    borderBottomColor: colors.lighter,
+    borderBottomColor: colors.dakr,
     elevation: 10,
   },
 

@@ -3,12 +3,13 @@ import { general, colors, fonts, metrics } from 'styles';
 
 const styles = StyleSheet.create({
   container: {
-    height: metrics.baseNavs,
-    backgroundColor: colors.white,
+    height: metrics.navBarHeight,
+    backgroundColor: colors.darker,
     alignContent: 'center',
     justifyContent: 'center',
-    borderTopColor: colors.light,
-    borderTopWidth: 0.5,
+    borderTopColor: colors.daker,
+    borderTopWidth: 1,
+    elevation: 10,
   },
 
   iconsContainer: {
@@ -27,9 +28,9 @@ const styles = StyleSheet.create({
   },
 
   iconAtive: {
-    color: colors.rose,
+    color: colors.white,
     backgroundColor: colors.alfa,
-    shadowColor: colors.rose,
+    shadowColor: colors.white,
     shadowOffset: { width: 0, height: 1 },
     shadowRadius: 3,
     shadowOpacity: 0.7,

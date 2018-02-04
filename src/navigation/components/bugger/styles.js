@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.darker,
     padding: metrics.basePadding,
+    elevation: 10,
   },
 
   link: {

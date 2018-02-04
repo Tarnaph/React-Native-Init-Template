@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     ...general.container,
     ...general.contentContainer,
     alignItems: 'center',
+    backgroundColor: colors.darker,
   },
 
   title: {

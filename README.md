@@ -58,4 +58,6 @@ Talking to APIs doesn't have to be awkward anymore.
 ####  Redux Persist
 `yarn add redux-persist`
 
+#### Reactotron Redux Saga
+`yarn add reactotron-redux-saga`
 ----------------

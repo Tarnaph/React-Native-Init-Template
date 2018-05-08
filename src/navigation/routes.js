@@ -6,14 +6,14 @@ import { Animated, Easing } from 'react-native';
 import { StackNavigator, TabNavigator, DrawerNavigator } from 'react-navigation';
 
 /* Components */
-import Footer from 'navigation/components/footer';
-import Header from 'navigation/components/header';
-import Bugger from 'navigation/components/bugger';
+import Footer from './components/footer';
+import Header from './components/header';
+import Bugger from './components/bugger';
 
 /* Pages */
-import Home from 'pages/home';
-import Page1 from 'pages/page1';
-import Page2 from 'pages/page2';
+import Home from '../pages/home';
+import Page1 from '../pages/page1';
+import Page2 from '../pages/page2';
 
 
 const Stack = StackNavigator({

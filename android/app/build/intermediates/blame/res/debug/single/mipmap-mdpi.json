@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/raphaelmorales/codes/app/RNI/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/raphaelmorales/codes/app/RNI/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\raphaelmorales\\codes\\app\\RNI\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\raphaelmorales\\codes\\app\\RNI\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

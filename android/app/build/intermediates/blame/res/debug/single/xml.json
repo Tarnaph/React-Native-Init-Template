@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/raphaelmorales/codes/app/RNI/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/Users/raphaelmorales/codes/app/RNI/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
+        "merged": "C:\\Users\\raphaelmorales\\codes\\app\\RNI\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\raphaelmorales\\codes\\app\\RNI\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.51.0\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.51.0\\res\\xml\\preferences.xml"
     }
 ]

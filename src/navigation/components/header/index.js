@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 /* Presentational */
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 /* Styles */
@@ -19,13 +19,16 @@ export default class header extends Component {
       <View style={styles.container}>
 
         <TouchableOpacity onPress={() => this.props.navigation.navigate('DrawerOpen')} >
-          <Icon name="bars" size={fonts.regular} color={colors.white} />
+          <Icon name="bars" size={fonts.regular} color={colors.darker} />
         </TouchableOpacity>
 
         <Text style={styles.title}>{this.props.defaultTitle}</Text>
 
         <TouchableOpacity onPress={() => this.props.navigation.navigate('DrawerOpen')}>
-          <Icon name="shopping-cart" size={fonts.regular} color={colors.white} />
+          <Image
+            style={styles.avatar}
+            source={{ uri: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' }}
+          />
         </TouchableOpacity>
 
       </View>

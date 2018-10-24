@@ -22,7 +22,7 @@ const Stack = StackNavigator({
 }, {
   initialRouteName: 'Home',
   navigationOptions: {
-    header: props => <Header {...props} defaultTitle="RN Default by Tarnaph" />,
+    header: props => <Header {...props} defaultTitle="Socio Desenvolvedor" />,
   },
   transitionConfig: () => ({
     transitionSpec: {

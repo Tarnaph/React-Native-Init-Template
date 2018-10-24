@@ -6,23 +6,29 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: colors.darker,
+    backgroundColor: colors.white,
     paddingVertical: metrics.smallMargin,
     paddingHorizontal: metrics.baseMargin,
     height: metrics.navBarHeight,
     borderBottomWidth: 1,
-    borderBottomColor: colors.dakr,
+    borderBottomColor: colors.light,
     elevation: 10,
   },
 
   title: {
     fontSize: fonts.regular,
     fontWeight: 'bold',
-    color: colors.white,
+    color: colors.darker,
   },
 
   iconContainer: {
     flexDirection: 'row',
+  },
+
+  avatar: {
+    height: 30,
+    width: 30,
+    borderRadius: 15,
   },
 
 });

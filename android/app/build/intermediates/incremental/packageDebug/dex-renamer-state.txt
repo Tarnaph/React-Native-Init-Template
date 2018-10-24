@@ -1,4 +1,4 @@
-#Mon May 07 22:39:16 BRT 2018
-base.0=C\:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Wed Oct 24 10:45:09 BRT 2018
+base.0=C\:\\Users\\phael\\Documents\\Codes\\app\\RNI\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\rapha\\Documents\\trampo\\code\\app\\RNI\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\phael\\Documents\\Codes\\app\\RNI\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
